@@ -48,34 +48,17 @@ https://p.eda.cn/d-1328625634846441472
 └── README.md
 ```
 
-## 文件说明
-
-| 路径 | 内容 |
-| --- | --- |
-| `hardware/pcb/01-星鸿派PCB.zip` | KiCad 硬件工程，包含原理图、PCB 与工程文件 |
-| `hardware/bom/BOM_Board1_Schematic1_2026-01-09.xlsx` | 完整元件清单，含采购信息参考 |
-| `software/source/02-程序源码.zip` | OpenHarmony 示例源码，包含线程、定时器、GPIO、OLED、AHT20、PWM、Wi-Fi 等实验示例 |
-| `software/resources/03-软件资料.zip` | USB 转串口驱动、串口调试助手、海思芯片烧录工具等 |
-| `docs/course/04-课程文档.zip` | 开发环境搭建、烧录、外设实验、Wi-Fi 等课程文档 |
-| `software/hispark-sdk-non-oh/05-Hispark官方SDK方式（非OH）.zip` | Hispark 官方 SDK 方式示例代码 |
-| `docs/ws63-official/06-WS63系列官方文档.zip` | WS63V100 官方 PDF、CHM、Markdown 资料 |
-| `assets/images/cover.png` | 项目封面图 |
-| `assets/images/schematic-preview.png` | 原理图预览图 |
-| `assets/images/pcb-preview.png` | PCB 预览图 |
-
-## 使用建议
-
-1. 硬件设计请优先查看 `hardware/pcb/01-星鸿派PCB.zip`，使用 KiCad 打开工程文件。
-2. 物料采购、焊接或复刻前，请核对 `hardware/bom/` 中的 BOM，并结合原理图、PCB 与实际版本确认封装和替代料。
-3. OpenHarmony 示例请从 `software/source/02-程序源码.zip` 解压后查看。
-4. 非 OpenHarmony / Hispark SDK 方式示例请查看 `software/hispark-sdk-non-oh/`。
-5. 烧录、串口、驱动类工具请查看 `software/resources/03-软件资料.zip`。
-6. WS63V100 芯片能力、AT、MQTT、HTTP、lwIP、TLS/DTLS、文件系统等接口资料请查看 `docs/ws63-official/06-WS63系列官方文档.zip`。
-7. 若需要二次开发，建议先完成 GPIO、定时器、串口、OLED、AHT20 等基础实验，再扩展 Wi-Fi、星闪通信和外设联动应用。
-
 ## 硬件说明
 
 项目硬件完全开源，原项目提供了原理图、PCB、BOM 等设计资料。硬件围绕“供电 + 串口调试 + 温湿度采集 + OLED 显示 + 用户交互 + 外设扩展”组织，适合作为 OpenHarmony 与星闪通信实验平台。
+
+### 原理图预览
+
+![星鸿派原理图预览](assets/images/schematic-preview.png)
+
+### PCB 预览
+
+![星鸿派 PCB 预览](assets/images/pcb-preview.png)
 
 ### 硬件设计文件
 
@@ -140,6 +123,31 @@ https://p.eda.cn/d-1328625634846441472
 ## 开源协议
 
 本仓库开源协议为 **CERN Open Hardware License**。
+
+## 文件说明
+
+| 路径 | 内容 |
+| --- | --- |
+| `hardware/pcb/01-星鸿派PCB.zip` | KiCad 硬件工程，包含原理图、PCB 与工程文件 |
+| `hardware/bom/BOM_Board1_Schematic1_2026-01-09.xlsx` | 完整元件清单，含采购信息参考 |
+| `software/source/02-程序源码.zip` | OpenHarmony 示例源码，包含线程、定时器、GPIO、OLED、AHT20、PWM、Wi-Fi 等实验示例 |
+| `software/resources/03-软件资料.zip` | USB 转串口驱动、串口调试助手、海思芯片烧录工具等 |
+| `docs/course/04-课程文档.zip` | 开发环境搭建、烧录、外设实验、Wi-Fi 等课程文档 |
+| `software/hispark-sdk-non-oh/05-Hispark官方SDK方式（非OH）.zip` | Hispark 官方 SDK 方式示例代码 |
+| `docs/ws63-official/06-WS63系列官方文档.zip` | WS63V100 官方 PDF、CHM、Markdown 资料 |
+| `assets/images/cover.png` | 项目封面图 |
+| `assets/images/schematic-preview.png` | 原理图预览图 |
+| `assets/images/pcb-preview.png` | PCB 预览图 |
+
+## 使用建议
+
+1. 硬件设计请优先查看 `hardware/pcb/01-星鸿派PCB.zip`，使用 KiCad 打开工程文件。
+2. 物料采购、焊接或复刻前，请核对 `hardware/bom/` 中的 BOM，并结合原理图、PCB 与实际版本确认封装和替代料。
+3. OpenHarmony 示例请从 `software/source/02-程序源码.zip` 解压后查看。
+4. 非 OpenHarmony / Hispark SDK 方式示例请查看 `software/hispark-sdk-non-oh/`。
+5. 烧录、串口、驱动类工具请查看 `software/resources/03-软件资料.zip`。
+6. WS63V100 芯片能力、AT、MQTT、HTTP、lwIP、TLS/DTLS、文件系统等接口资料请查看 `docs/ws63-official/06-WS63系列官方文档.zip`。
+7. 若需要二次开发，建议先完成 GPIO、定时器、串口、OLED、AHT20 等基础实验，再扩展 Wi-Fi、星闪通信和外设联动应用。
 
 ## 重要声明
 
